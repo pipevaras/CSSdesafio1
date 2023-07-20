@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  margin-bottom: 0;
+  font-size: 3vw;
+}
+h3 {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+h4 {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h6 {
+  margin: 0.35em 0 0 0;
+  font-family: "Roboto", sans-serif;
+  color: #828485;
+}
+
+.mensajeria {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.container-contactos {
+  flex: 0 0 17vw;
+}
+.datos-usuario {
+  display: flex;
+}
+
+.usuario-ppal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.iconos {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 1 auto;
+}
+
+i {
+  margin: 8px;
+}
+
+.imagen-1 {
+  padding: 9px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-ppal {
+  border: 2px solid #e8ebe4; /* Gray border */
+  border-radius: 50%; /* Rounded border */
+  padding: 0px; /* Some padding */
+  width: 40px; /* Set a small width */
+}
+
+.estado-usuario {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  margin: 0;
+  border: 1.5px solid #bec1bb;
+}
+
+.nuevo-chat {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0 3rem 0;
+  margin: 0;
+  border: 1.5px solid #bec1bb;
+}
+
+.boton {
+  margin: 0;
+  border: 0;
+  line-height: 3;
+  padding: 0 80px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #fff;
+  background-color: #a491d2;
+}
+
+.boton:hover {
+  background-color: #cdc3e6;
+}
+
+.boton:focus {
+  background-color: #d4dcff;
+}
+
+.imagenes {
+  border: 2px solid #e8ebe4; /* Gray border */
+  border-radius: 70%; /* Rounded border */
+  padding: 0px; /* Some padding */
+  width: 55px; /* Set a small width */
+}
+
+.contactos {
+  display: flex;
+  flex-direction: column;
+}
+
+.usuarios {
+  padding: 5%;
+  margin: 0;
+  display: flex;
+  border: 1.5px solid #bec1bb;
+}
+
+.usuario-secun {
+  margin: 0 3% 0 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.imagen-2 {
+  display: flex;
+  flex: 0 0 2vw;
+  padding: 9px;
+  justify-content: flex-start;
+}
+
+.seccion-principal {
+  display: flex;
+  background-color: #f7f6f6;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 80vw;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-final {
+  padding: 0 25vw 0 25vw;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+}
